@@ -1,0 +1,26 @@
+Commonly Encountered Issues:
+
+Error: "Implict super constructor Object() is undefined"
+The JDK is not in the Build Path.
+1) Right-click project > Build Path > Add Library
+2) JRE System Library > Workspace default (should be the JDK, not JRE).
+
+Bug: src/ is part of the packages in Eclipse.
+The Build Settings have the superfolder of src/ as the folder where the packages are at.
+1) Right-click project > Build Path > Configure Build Path...
+2) Source > Add Folder > select [superfolder of src]/src/
+
+Errors: "... cannot be resolved to a type" or "The import ... cannot be resolved"
+1) Right click project > build path > add external archives > user > wpilib > java > current > lib > select all
+2) Additional archives: from wpilib > user > java > lib > select all
+
+Error: Shows JRE instead of JDK in the workspace default
+1) Window > Preferences > Java > Installed JREs
+2) Add > Standard VM > Directory > Find JDK in the file system and select it
+3) Select the JDK > Apply and Close
+
+CAN Talon SRX Not Communicating With RoboRIO/NI Web-Based Configuration Tool
+
+Common Solutions:
+
+Check that port numbers are correct.

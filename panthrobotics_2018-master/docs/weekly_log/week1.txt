@@ -1,0 +1,43 @@
+TODO:
+	PROGRAMMING:
+		Train rookies
+		Hook up other gyro in programming?
+		Research color sensing
+		Get vision working
+		Program GTA 5 drive
+		(once driving is established)Motion Magic research for CAN Talons
+		(later)Check for how input is sent and used in Java by randomized field components (switch and scale)
+		(later)Start planning autonomous modes
+		
+		
+	WIRING:
+		Confer with subteams about designs
+		Decide space needed for wiring and board (no stacking boards)
+		Inventory electrical components, check for toolbags and wire crate
+		Rewire Titan
+		Analyze previous electrical boards
+		Test gyros and check RoboRIOs
+		Check pneumatics systems
+		
+
+Monday (1/8):
+	Installing software on Josue's computer; Drive Station and Mason's computers seem ready.
+	Download CANTalon libraries on Josue and Mason's computers
+	Download GRIP on Josue's computer.
+	Mason started programming drivetrain.
+	Josue added Pigeon gyro stuff.
+	
+Wednesday (1/10):
+	Worked on Drive code
+	Finished organizing most of electrical inventory.
+	
+Friday (1/12):
+	Organized electrical inventory
+	Worked on Drive code
+	Installing software on driver station
+	
+Saturday (1/13):
+	Working on electrical board
+	Reset driver station
+	Found out how data about alliance colors is communicated to robot.
+	
